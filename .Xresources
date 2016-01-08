@@ -1,0 +1,24 @@
+xterm*background:		black
+xterm*foreground:		white
+Xft*antialias:			true
+Xft*autohint:			true
+XTerm*background:		black
+XTerm*foreground:		green
+XTerm*pointerColor:		red
+XTerm*pointerColorBackground:   black
+XTerm*cursorColor:		red
+XTerm*internalBorder:		3
+XTerm*loginShell:		true
+XTerm*scrollBar:		true
+XTerm*rightScrollBar:		true
+XTerm*scrollKey:		true
+XTerm*saveLines:		10000
+XTerm*faceName:			Mono
+XTerm*faceSize:			12
+XTerm*toolBar:			on
+XTerm*multiClickTime:		250
+xterm*termName:			xterm-256color
+XTerm*locale:			true
+XTerm*metaSendsEscape:		true
+Xterm*saveLines:		4096
+XTerm*VT100.translations: #override <Btn1Up>: select-end(PRIMARY, CLIPBOARD, CUT_BUFFER0)

@@ -1,0 +1,111 @@
+// vim:ts=4:sw=4:et
+{
+    "border": "normal",
+    "current_border_width": 2,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 462,
+       "width": 821,
+       "x": 0,
+       "y": 0
+    },
+    "name": "left",
+    "percent": 0.5,
+    "swallows": [
+       {
+          "class": "^XTerm$",
+          "instance": "^left$",
+          "title": "^top$",
+          "transient_for": "^$"
+       }
+    ],
+    "type": "con"
+}
+
+{
+    // splitv split container with 2 children
+    "border": "normal",
+    "floating": "auto_off",
+    "layout": "splitv",
+    "percent": 0.5,
+    "type": "con",
+    "nodes": [
+        {
+            // splith split container with 2 children
+            "border": "normal",
+            "floating": "auto_off",
+            "layout": "splith",
+            "percent": 0.625,
+            "type": "con",
+            "nodes": [
+                {
+                    "border": "normal",
+                    "current_border_width": 2,
+                    "floating": "auto_off",
+                    "geometry": {
+                       "height": 462,
+                       "width": 821,
+                       "x": 0,
+                       "y": 0
+                    },
+                    "name": "rightping",
+                    "percent": 0.5,
+                    "swallows": [
+                       {
+                          "class": "^XTerm$",
+                          "instance": "^rightping$",
+                          "title": "^ping$",
+                          "transient_for": "^$"
+                       }
+                    ],
+                    "type": "con"
+                },
+                {
+                    "border": "none",
+                    "current_border_width": 2,
+                    "floating": "auto_off",
+                    "geometry": {
+                       "height": 5,
+                       "width": 5,
+                       "x": 0,
+                       "y": 0
+                    },
+                    "name": "rightconky",
+                    "percent": 0.5,
+                    "swallows": [
+                       {
+                          "class": "^Conky$",
+                          "instance": "^rightconky$",
+                          "title": "^conky$",
+                          "transient_for": "^$"
+                       }
+                    ],
+                    "type": "con"
+                }
+            ]
+        },
+        {
+            "border": "normal",
+            "current_border_width": 2,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 462,
+               "width": 821,
+               "x": 0,
+               "y": 0
+            },
+            "name": "rightbottom",
+            "percent": 0.375,
+            "swallows": [
+               {
+                  "class": "^XTerm$",
+                  "instance": "^rightbottom",
+                  "title": "^xterm$",
+                  "transient_for": "^$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+

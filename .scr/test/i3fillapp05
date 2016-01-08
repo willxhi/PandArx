@@ -1,0 +1,5 @@
+# Load the layout
+i3-msg 'workspace 5: ssh1; append_layout ~/.i3/ok/workspace-5.json'
+#source ~/.bashrc
+# load the programs into the containers
+xterm -name ssh -title 'quark' -e 'bash ~/.bsh quark' &

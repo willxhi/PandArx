@@ -1,0 +1,16 @@
+# Load the layout
+i3-msg 'workspace test; append_layout ~/.scr/test/ws/lay0.json'
+
+# load the programs into the containers
+#xterm -name topleft -title 'quark' -e 'bash ~/.bsh quark' &
+#xterm -name topright -title 'vim' -e 'vim' &
+#xterm -name bottomleft -e 'ncmpcpp' &
+#xterm -name bottomright -e 'irssi'
+
+xterm -name left -title 'top' -e 'top' &
+xterm -name rightping -title 'ping' -e 'ping 192.168.51.55' &
+#xterm -name rightconky -title 'conky' -e 'conky -q' &
+conky &
+xterm -name righbottom -title 'xterm' -e 'xterm' &
+
+

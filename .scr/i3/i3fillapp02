@@ -1,0 +1,5 @@
+# Load the layout
+i3-msg 'workspace 2: term1; append_layout ~/.scr/test/ws/lay02.json'
+#source ~/.bashrc
+# load the programs into the containers
+xterm -name main -title 'mc' -e 'mc' &

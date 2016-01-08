@@ -1,0 +1,143 @@
+// vim:ts=4:sw=4:et
+{
+    // splitv split container with 2 children
+    "border": "normal",
+    "floating": "auto_off",
+    "layout": "splitv",
+    "percent": 0.5,
+    "type": "con",
+    "nodes": [
+        {
+            // splitv split container with 2 children
+            "border": "normal",
+            "floating": "auto_off",
+            "layout": "splitv",
+            "percent": 0.5,
+            "type": "con",
+            "nodes": [
+                {
+                    "border": "normal",
+                    "current_border_width": 2,
+                    "floating": "auto_off",
+                    "geometry": {
+                       "height": 462,
+                       "width": 821,
+                       "x": 0,
+                       "y": 0
+                    },
+                    "name": "topleft",
+                    "percent": 0.5,
+                    "swallows": [
+                       {
+                          "class": "^XTerm$",
+                          "instance": "^topleft$",
+                          "title": "^xterm$",
+                          "transient_for": "^$"
+                       }
+                    ],
+                    "type": "con"
+                },
+                {
+                    "border": "normal",
+                    "current_border_width": 2,
+                    "floating": "auto_off",
+                    "geometry": {
+                       "height": 462,
+                       "width": 821,
+                       "x": 0,
+                       "y": 0
+                    },
+                    "name": "middleleft",
+                    "percent": 0.5,
+                    "swallows": [
+                       {
+                          "class": "^XTerm$",
+                          "instance": "^middleleft$",
+                          "title": "^kuma\\@PandArx\\:\\~$",
+                          "transient_for": "^$"
+                       }
+                    ],
+                    "type": "con"
+                }
+            ]
+        },
+        {
+            "border": "normal",
+            "current_border_width": 2,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 462,
+               "width": 821,
+               "x": 0,
+               "y": 0
+            },
+            "name": "bottomleft",
+            "percent": 0.5,
+            "swallows": [
+               {
+                  "class": "^XTerm$",
+                  "instance": "^bottomleft$",
+                  "title": "^kuma\\@PandArx\\:\\~$",
+                  "transient_for": "^$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+
+{
+    // splitv split container with 2 children
+    "border": "normal",
+    "floating": "auto_off",
+    "layout": "splitv",
+    "percent": 0.5,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "normal",
+            "current_border_width": 2,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 462,
+               "width": 821,
+               "x": 0,
+               "y": 0
+            },
+            "name": "topright",
+            "percent": 0.5,
+            "swallows": [
+               {
+                  "class": "^XTerm$",
+                  "instance": "^topright$",
+                  "title": "^nano$",
+                  "transient_for": "^$"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            "border": "normal",
+            "current_border_width": 2,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 462,
+               "width": 821,
+               "x": 0,
+               "y": 0
+            },
+            "name": "bottomright",
+            "percent": 0.5,
+            "swallows": [
+               {
+                  "class": "^XTerm$",
+                  "instance": "^bottomright$",
+                  "title": "^kuma\\@PandArx\\:\\~$",
+                  "transient_for": "^$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+

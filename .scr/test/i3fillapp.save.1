@@ -1,0 +1,12 @@
+reboot
+# Load the layout
+i3-msg 'workspace 4: term3; append_layout ~/.i3/workspace-3.json'
+
+# load the programs into the containers
+xterm -name topright -e 'ranger' &
+xterm -name bottomright -e 'smplayer'
+
+
+#xterm -name middleleft &   
+#xterm -name bottomleft &
+#xterm -name bottomright

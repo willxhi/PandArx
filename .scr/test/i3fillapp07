@@ -1,0 +1,8 @@
+# Load the layout
+i3-msg 'workspace 7: misc; append_layout ~/.i3/ok/workspace-7.json'
+source ~/.bashrc
+# load the programs into the containers
+xterm -name topleft -title 'ranger' -e 'sudo ranger' &
+xterm -name topright -title 'vim' -e 'sudo vim' &
+xterm -name bottomleft -e 'ncmpcpp' &
+xterm -name bottomright -e 'irssi' &

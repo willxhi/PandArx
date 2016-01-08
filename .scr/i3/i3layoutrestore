@@ -1,0 +1,8 @@
+#!/bin/bash
+
+for i in {1..10}
+do
+  iVar=$(($i+104))
+  tag=$(sed $iVar'q;d' .config/i3/config | awk '{print $3, $4}' | sed 's/\"//g')
+  i3-msg 'workspace '$tag'; append_layout ~/.i3/workspace-'$i'.json'
+done

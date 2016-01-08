@@ -1,0 +1,47 @@
+// vim:ts=4:sw=4:et
+{
+    "border": "normal",
+    "current_border_width": 2,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 462,
+       "width": 821,
+       "x": 0,
+       "y": 0
+    },
+    "name": "kuma@PandArx:~",
+    "percent": 0.5,
+    "swallows": [
+       {
+       // "class": "^XTerm$",
+       // "instance": "^xterm$",
+       // "title": "^kuma\\@PandArx\\:\\~$",
+       // "transient_for": "^$"
+       }
+    ],
+    "type": "con"
+}
+
+{
+    "border": "normal",
+    "current_border_width": 2,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 462,
+       "width": 821,
+       "x": 0,
+       "y": 0
+    },
+    "name": "kuma@PandArx:~/.config/i3",
+    "percent": 0.5,
+    "swallows": [
+       {
+       // "class": "^XTerm$",
+       // "instance": "^xterm$",
+       // "title": "^kuma\\@PandArx\\:\\~\\/\\.config\\/i3$",
+       // "transient_for": "^$"
+       }
+    ],
+    "type": "con"
+}
+

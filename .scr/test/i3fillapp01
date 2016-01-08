@@ -1,0 +1,5 @@
+# Load the layout
+i3-msg 'workspace 1: conf; append_layout ~/.i3/ok/workspace-1.json'
+#source ~/.bashrc
+# load the programs into the containers
+xterm  &

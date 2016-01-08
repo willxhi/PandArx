@@ -1,0 +1,27 @@
+sw_volume: 75
+audio_device_state:1:MPD PulseAudio Output
+state: pause
+current: 2
+time: 93.726000
+random: 0
+repeat: 1
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:Maksim Mrvica/2004 - Variations Part I & II/01 - Kolibre.mp3
+1:Maksim Mrvica/2004 - Variations Part I & II/14 - Pagrag.mp3
+2:Maksim Mrvica/2004 - Variations Part I & II/02 - Piano Concerto No.1 Nn B Flat Minor, 3rd Movement.mp3
+3:Maksim Mrvica/2004 - Variations Part I & II/03 - Merry Christmas Mr. Lawrence.mp3
+4:Maksim Mrvica/2004 - Variations Part I & II/04 - Totentanz.mp3
+5:Maksim Mrvica/2004 - Variations Part I & II/05 - Olympic Dream.mp3
+6:Maksim Mrvica/2004 - Variations Part I & II/06 - Amazonic.mp3
+7:Maksim Mrvica/2004 - Variations Part I & II/07 - 'Leeloos' Tune.mp3
+8:Maksim Mrvica/2004 - Variations Part I & II/08 - Procession Of The Sardar.mp3
+9:Maksim Mrvica/2004 - Variations Part I & II/09 - Bohemian Rhapsody.mp3
+10:Maksim Mrvica/2004 - Variations Part I & II/10 - Pictures At An Exhibition.mp3
+11:Maksim Mrvica/2004 - Variations Part I & II/11 - Etude In D Sharp Minor, 'Patetico'.mp3
+12:Maksim Mrvica/2004 - Variations Part I & II/12 - Nocturne In E Flat Major.mp3
+playlist_end
