@@ -124,9 +124,12 @@ set number
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Enable syntax highlighting
 syntax enable
-
-colorscheme desert
+"execute pathogen#infect()
+"colorscheme desert
+"set background=dark
 set background=dark
+let g:solarized_termcolors=256
+colorscheme solarized
 
 " Set extra options when running in GUI mode
 if has("gui_running")
@@ -134,6 +137,9 @@ if has("gui_running")
     set guioptions+=e
     set t_Co=256
     set guitablabel=%M\ %t
+    set background=light
+else
+    set background=dark
 endif
 
 " Set utf8 as standard encoding and en_US as the standard language

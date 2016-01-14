@@ -16,7 +16,8 @@ set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango:monospace 8
+#font pango:monospace 8
+font pango:DejaVu Sans Mono, Awesome 8
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -33,7 +34,9 @@ font pango:monospace 8
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
+#bindsym $mod+Return exec i3-sensible-terminal
+#bindsym $mod+Return exec xterm
+bindsym $mod+Return exec termite
 
 # start another application
 bindsym $mod+Control+Shift+f exec firefox
@@ -109,17 +112,18 @@ bindsym $mod+a focus parent
 #bindsym $mod+d focus child
 
 # name the workspaces
-set $tag1 "1: conf"
-set $tag2 "2: term1"
-set $tag3 "3: term2"
-set $tag4 "4: watch"
-set $tag5 "5: ssh1"
-set $tag6 "6: ssh2"
-set $tag7 "7: misc"
-set $tag8 "8: media"
-set $tag9 "9: code"
-set $tag10 "10: www"
-set $tag11 "11: notyet"
+# 1 conf, 2 term1, 3 term2, 4 watch, 5 ssh1, 6 ssh1, 7 misc, 8 music, 9 code, 10 www1, 11 www2
+set $tag1 "1: &#xf0c9;"  
+set $tag2 "2: &#xf120;" 
+set $tag3 "3: &#xf15b;" 
+set $tag4 "4: &#xf06e;" 
+set $tag5 "5: &#xf233;"
+set $tag6 "6: &#xf0e8;" 
+set $tag7 "7: &#xf005;"
+set $tag8 "8: &#xf001;"
+set $tag9 "9: &#xf044;"
+set $tag10 "10: &#xf268;"
+set $tag11 "11: &#xf269;"
 
 # switch to workspace
 bindsym $mod+1 workspace $tag1
@@ -168,13 +172,14 @@ assign [class="^XTerm$" instance="^xterm$" title="^ncmpcpp$"] → $tag8
 assign [class="^Pavucontrol$"] → $tag8
 assign [class="^chromium$"] → $tag10
 assign [class="^Firefox$"] → $tag10
+assign [class="^Midori$"] → $tag11
 
 #startup applications
 #exec --no-startup-id feh --bg-scale '/usr/share/lxde/wallpapers/lxde_black.jpg'
 exec --no-startup-id feh --randomize --bg-scale /usr/share/lxde/wallpapers/*
 exec --no-startup-id xcompmgr -c
 exec --no-startup-id /usr/bin/VBoxClient-all
-exec --no-startup-id .scr/i3/i3fillapp01
+exec --no-startup-id .scr/i3/i3fillapp 1
 #exec --no-startup-id .scr/i3/i3fillapp02
 #exec --no-startup-id .scr/i3/i3fillapp05
 
@@ -247,11 +252,15 @@ bindsym XF86AudioMute exec amixer -q sset Master toggle
 
 ## Colours
 ###---------
-set $blu #1793d0
+#set $blu #1793d0
+set $azu #007fff
+set $blu #0000ff
 set $whi #ffffff
 set $bla #000000
 set $dgr #696969
 set $red #ff0000
+set $org #ff4500
+set $gre #00ff00
 ##colourclass              border    bckgrnd   text     indicator 
 client.focused             $blu      $blu      $whi     $bla
 client.focused_inactive    $bla      $dgr      $whi     $dgr
@@ -262,14 +271,15 @@ client.urgent              $red      $red      $red     $dgr
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {
+    font pango:DejaVu Sans Mono, Awesome 8
 	colors {
-		background #000000
-		statusline #ffffff
-		separator  #666666	
-		focused_workspace  #008fff #007fff #ffffff
-		active_workspace   #333333 #5f676a #ffffff
-		inactive_workspace #333333 #222222 #888888
-		urgent_workspace   #aa0000 #990000 #ffffff
+		background $bla
+		statusline $whi
+		separator  $dgr	
+		focused_workspace  $azu $blu $whi
+		active_workspace   $dgr $dgr $whi
+		inactive_workspace $dgr $bla $azu 
+		urgent_workspace   $red $org $whi
 	}
 	position top
   status_command i3status -c

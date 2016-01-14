@@ -11,12 +11,17 @@ alias lxterminal='lxterminal --geometry=96x24'
 alias chromiumt='chromium --proxy-server="socks://localhost:9050"'
 alias vi3c='vim ~/.config/i3/config'
 alias vrc='vim ~/.bashrc'
+alias vxr='vim ~/.Xresources'
+alias vtc='vim ~/.config/termite/config'
+alias src='source ~/.bashrc'
+alias sxr='xrdb -merge ~/.Xresources'
 alias svim='sudo vim'
 alias fehwall='feh --bg-scale /usr/share/lxde/wallpapers/lxde_black.jpg'
 alias sranger='sudo ranger'
+alias ssh='TERM=xterm ssh'
 
-export EDITOR=vim
-export RANGER_LOAD_DEFAULT_RC=false
+#export EDITOR=vim
+#export RANGER_LOAD_DEFAULT_RC=false
 
 [ -n "$XTERM_VERSION" ] && transset-df -a >/dev/null
 
@@ -24,5 +29,5 @@ export RANGER_LOAD_DEFAULT_RC=false
 
 #PS1='[\u@\h \W]\$ '
 #PS1='[\u@\h \w\n#\D{%Y-%m-%d} \T]\$ '
-PS1='\[\e[1;30m\][\[\e[m\]\[\e[1;31m\]\u\[\e[m\]\[\e[1;32m\]@\[\e[m\]\[\e[1;33m\]\h\[\e[m\] \[\e[1;34m\]\w\[\e[m\] \[\e[1;32m\]\n#\[\e[m\]\[\e[1;35m\]\D{%Y-%m-%d} \t\[\e[m\]\[\e[1;30m\]]\[\e[m\] \[\e[1;36m\]\$\[\e[m\] \[\e[1;37m\]'
-
+#PS1='\[\e[1;30m\][\[\e[m\]\[\e[1;31m\]\u\[\e[m\]\[\e[1;32m\]@\[\e[m\]\[\e[1;33m\]\h\[\e[m\] \[\e[1;34m\]\w\[\e[m\] \[\e[1;32m\]\n#\[\e[m\]\[\e[1;35m\]\D{%Y-%m-%d} \t\[\e[m\]\[\e[1;30m\]]\[\e[m\] \[\e[1;36m\]\$\[\e[m\] \[\e[1;37m\]'
+PS1='\[\e[1;30m\][\[\e[m\]\[\e[1;31m\]\u\[\e[m\]\[\e[1;32m\]@\[\e[m\]\[\e[1;33m\]\h\[\e[m\] \[\e[1;34m\]\w\[\e[m\] \[\e[1;32m\]\n#\[\e[m\]\[\e[1;35m\]\D{%Y-%m-%d} \t\[\e[m\]\[\e[1;30m\]]\[\e[m\]★\[\e[1;36m\]\$\[\e[m\]\[\e[1;37m\]'$'\\[\e[31m\\]\u2605 \\[\e[1;37m\\]'
