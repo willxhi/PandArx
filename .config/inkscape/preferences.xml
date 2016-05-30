@@ -418,9 +418,9 @@
        offset="0"
        offsetunits="ft" />
     <group
-       id="measure"
+       unit="px"
        fontsize="10"
-       unit="px" />
+       id="measure" />
   </group>
   <group
      id="palette">
@@ -954,9 +954,9 @@
      id="desktop"
      style="">
     <group
-       width="451"
+       width="676"
        height="729"
-       x="911"
+       x="680"
        y="37"
        fullscreen="0"
        id="geometry"

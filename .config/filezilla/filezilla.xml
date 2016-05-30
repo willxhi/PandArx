@@ -54,7 +54,7 @@
 		<Setting name="Auto Ascii dotfiles">1</Setting>
 		<Setting name="Theme">opencrystal/</Setting>
 		<Setting name="Language Code" />
-		<Setting name="Last Server Path">1 0 3 w01 6 backup 5 51.55 4 dump</Setting>
+		<Setting name="Last Server Path">1 0 4 root 4 .bck 2 gf 6 201601 9 dashboard</Setting>
 		<Setting name="Concurrent download limit">0</Setting>
 		<Setting name="Concurrent upload limit">0</Setting>
 		<Setting name="Update Check">1</Setting>
@@ -72,15 +72,15 @@
 		<Setting name="Show Tree Remote">1</Setting>
 		<Setting name="File Pane Layout">3</Setting>
 		<Setting name="File Pane Swap">0</Setting>
-		<Setting name="Last local directory">/</Setting>
+		<Setting name="Last local directory">/home/kuma/Downloads/</Setting>
 		<Setting name="Filelist directory sort">0</Setting>
 		<Setting name="Filelist name sort">1</Setting>
 		<Setting name="Queue successful autoclear">0</Setting>
 		<Setting name="Queue column widths">180 60 180 80 60 150</Setting>
 		<Setting name="Local filelist colwidths">120 80 100 120</Setting>
-		<Setting name="Remote filelist colwidths">308 75 80 100 80 80</Setting>
+		<Setting name="Remote filelist colwidths">308 130 80 100 80 80</Setting>
 		<Setting name="Window position and size">0 0 37 1362 640 </Setting>
-		<Setting name="Splitter positions (v2)">50 -70 500000000 154 -174 500000000</Setting>
+		<Setting name="Splitter positions (v2)">205 -70 477239353 154 -174 500000000</Setting>
 		<Setting name="Local filelist sortorder">0 0</Setting>
 		<Setting name="Remote filelist sortorder">0 0</Setting>
 		<Setting name="Time Format">0</Setting>
@@ -96,7 +96,7 @@
 		<Setting name="Site Manager position">0 319 134 723 534 </Setting>
 		<Setting name="Theme icon size" />
 		<Setting name="Timestamp in message log">0</Setting>
-		<Setting name="Sitemanager last selected">0/quark</Setting>
+		<Setting name="Sitemanager last selected">0/itcwebapp</Setting>
 		<Setting name="Local filelist shown columns">1111</Setting>
 		<Setting name="Remote filelist shown columns">111111</Setting>
 		<Setting name="Local filelist column order">0,1,2,3</Setting>
@@ -105,7 +105,7 @@
 		<Setting name="Filter toggle state">0</Setting>
 		<Setting name="Show quickconnect bar">0</Setting>
 		<Setting name="Messagelog position">0</Setting>
-		<Setting name="Last connected site">0/quark</Setting>
+		<Setting name="Last connected site">0/itcwebapp</Setting>
 		<Setting name="File doubleclock action">0</Setting>
 		<Setting name="Dir doubleclock action">0</Setting>
 		<Setting name="Minimize to tray">0</Setting>
@@ -132,18 +132,18 @@
 		<Setting name="Kiosk mode">0</Setting>
 		<Setting name="Disable update check">0</Setting>
 		<LastServer>
-			<Host>192.168.51.18</Host>
-			<Port>4422</Port>
+			<Host>192.168.51.215</Host>
+			<Port>1309</Port>
 			<Protocol>1</Protocol>
 			<Type>0</Type>
 			<User>root</User>
-			<Logontype>3</Logontype>
+			<Logontype>2</Logontype>
 			<TimezoneOffset>0</TimezoneOffset>
 			<PasvMode>MODE_DEFAULT</PasvMode>
 			<MaximumMultipleConnections>0</MaximumMultipleConnections>
 			<EncodingType>Auto</EncodingType>
 			<BypassProxy>0</BypassProxy>
-			<Name>quark</Name>
+			<Name>itcwebapp</Name>
 		</LastServer>
 	</Settings>
 </FileZilla3>

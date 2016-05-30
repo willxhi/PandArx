@@ -31,57 +31,57 @@ XTerm*VT100.translations:       #override <Btn1Up>: select-end(PRIMARY, CLIPBOAR
 
 
 
-!URxvt*termName:                 screen-256color
-!URxvt*geometry:                 240x84
-!URxvt*loginShell:               true
-!URxvt*scrollBar:                false
-!URxvt*scrollColor:              #777777
-!URxvt*scrollstyle:              plain
-!URxvt*scrollTtyKeypress:        true
-!URxvt*scrollTtyOutput:          false
-!URxvt*scrollWithBuffer:         false
-!URxvt*secondaryScreen:          true
-!URxvt*secondaryScroll:          true
-!URxvt*skipScroll:               true
-!URxvt*scrollBar_right:          true
-!URxvt*scrollBar_floating:       false
-!URxvt*fading:                   30
-!URxvt*shading:                  30
-!URxvt*utmpInhibit:              false
-!URxvt*urgentOnBell:             false
-!URxvt*visualBell:               true
-!URxvt*mapAlert:                 true
-!URxvt*mouseWheelScrollPage:     false
-!URxvt.depth:                    32
-!URxvt*background:              Black
-!URxvt.background:               [95]#000000
-!URxvt*foreground:               White
-!URxvt*colorUL:                  yellow
-!URxvt*underlineColor:           yellow
-!URxvt*font:                     -xos4-terminus-medium-*-*-*-14-*-*-*-*-*-iso8859-15,xft:terminus:pixelsize:12
+URxvt*termName:                 screen-256color
+URxvt*geometry:                 240x84
+URxvt*loginShell:               true
+URxvt*scrollBar:                false
+URxvt*scrollColor:              #777777
+URxvt*scrollstyle:              plain
+URxvt*scrollTtyKeypress:        true
+URxvt*scrollTtyOutput:          false
+URxvt*scrollWithBuffer:         false
+URxvt*secondaryScreen:          true
+URxvt*secondaryScroll:          true
+URxvt*skipScroll:               true
+URxvt*scrollBar_right:          true
+URxvt*scrollBar_floating:       false
+URxvt*fading:                   30
+URxvt*shading:                  30
+URxvt*utmpInhibit:              false
+URxvt*urgentOnBell:             false
+URxvt*visualBell:               true
+URxvt*mapAlert:                 true
+URxvt*mouseWheelScrollPage:     false
+URxvt.depth:                    32
+URxvt*background:              Black
+URxvt.background:               [95]#000000
+URxvt*foreground:               White
+URxvt*colorUL:                  yellow
+URxvt*underlineColor:           yellow
+URxvt*font:                     -xos4-terminus-medium-*-*-*-14-*-*-*-*-*-iso8859-15,xft:terminus:pixelsize:12
 !URxvt*font:                     xft:Monospace,xft:Awesome:pixelsize=14
-!URxvt*boldFont:                 -xos4-terminus-bold-*-*-*-14-*-*-*-*-*-iso8859-15,xft:terminus:bold:pixelsize:12
-!URxvt*italicFont:               xft:Bitstream Vera Sans Mono:italic:autohint=true:pixelsize=12
-!URxvt*boldItalicFont:           xft:Bitstream Vera Sans Mono:bold:italic:autohint=true:pixelsize=12
-!URxvt*saveLines:                3000
-!URxvt*buffered:                 true
-!URxvt*hold:                     false
-!URxvt*internalBorder:
-!URxvt*print-pipe: cat > $HOME/$(echo urxvt.dump.$(date +'%Y%M%d%H%m%S'))
-!URxvt*perl-ext-common:
-!URxvt*perl-ext:
-!URxvt*color1: #9e1828
-!URxvt*color2: #aece92
-!URxvt*color3: #968a38
-!URxvt*color4: #414171
-!URxvt*color5: #963c59
-!URxvt*color6: #418179
-!URxvt*color7: #bebebe
-!URxvt*color8: #666666
-!URxvt*color9: #cf6171
-!URxvt*color10: #c5f779
-!URxvt*color11: #fff796
-!URxvt*color12: #4186be
-!URxvt*color13: #cf9ebe
-!URxvt*color14: #71bebe
-!URxvt*color15: #ffffff
+URxvt*boldFont:                 -xos4-terminus-bold-*-*-*-14-*-*-*-*-*-iso8859-15,xft:terminus:bold:pixelsize:12
+URxvt*italicFont:               xft:Bitstream Vera Sans Mono:italic:autohint=true:pixelsize=12
+URxvt*boldItalicFont:           xft:Bitstream Vera Sans Mono:bold:italic:autohint=true:pixelsize=12
+URxvt*saveLines:                3000
+URxvt*buffered:                 true
+URxvt*hold:                     false
+URxvt*internalBorder:
+URxvt*print-pipe: cat > $HOME/$(echo urxvt.dump.$(date +'%Y%M%d%H%m%S'))
+URxvt*perl-ext-common:
+URxvt*perl-ext:
+URxvt*color1: #9e1828
+URxvt*color2: #aece92
+URxvt*color3: #968a38
+URxvt*color4: #414171
+URxvt*color5: #963c59
+URxvt*color6: #418179
+URxvt*color7: #bebebe
+URxvt*color8: #666666
+URxvt*color9: #cf6171
+URxvt*color10: #c5f779
+URxvt*color11: #fff796
+URxvt*color12: #4186be
+URxvt*color13: #cf9ebe
+URxvt*color14: #71bebe
+URxvt*color15: #ffffff

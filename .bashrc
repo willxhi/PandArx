@@ -5,22 +5,17 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-alias ls='ls --color=auto'
-alias xterm='xterm -geometry 96x24'
-alias lxterminal='lxterminal --geometry=96x24'
-alias chromiumt='chromium --proxy-server="socks://localhost:9050"'
-alias vi3c='vim ~/.config/i3/config'
-alias vrc='vim ~/.bashrc'
-alias vxr='vim ~/.Xresources'
-alias vtc='vim ~/.config/termite/config'
-alias src='source ~/.bashrc'
-alias sxr='xrdb -merge ~/.Xresources'
-alias svim='sudo vim'
-alias fehwall='feh --bg-scale /usr/share/lxde/wallpapers/lxde_black.jpg'
-alias sranger='sudo ranger'
-alias ssh='TERM=xterm ssh'
+if [ -f ~/.bash_aliases ]; then
+  . ~/.bash_aliases
+fi
 
-#export EDITOR=vim
+export EDITOR=vim
+export TERM=xterm-256color
+export LYNX_LSS=~/.config/lynx/lynx.lss
+
+export PATH=$PATH:/opt/android-sdk/tools:/opt/android-sdk/platform-tools:/opt/android-sdk/build-tools
+
+#export WALLPATH=/usr/share/lxde/wallpapers
 #export RANGER_LOAD_DEFAULT_RC=false
 
 [ -n "$XTERM_VERSION" ] && transset-df -a >/dev/null
